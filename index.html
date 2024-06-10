@@ -7,10 +7,57 @@
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <h2>Palmer Bros.</h2>
-    </main>
+    <div class="container">
+        <header id="header">
+        </header>
+        <main id="main">
+            <h2>Palmer Bros.</h2>
+
+            <h3>General Outfitters</h3>
+
+            <p id="palmer-intro-1">
+                Palmer Bros. Store offers a wide range of products, making it a one-stop shop for
+                locals and visitors alike. The store is divided into several distinct sections.
+            </p>
+
+            <p id="palmer-intro-2">
+                Join the Palmer Bros Store community and stay up-to-date with the latest news,
+                exclusive offers, and upcoming events. Sign up today and enjoy a range of member
+                benefits, including:
+            </p>
+
+            <form action="https://example.com" method="post">
+                <div>
+                    <label for="full_name">Full Name</label><br>
+                    <input type="text" name="full_name" id="full_name" placeholder="Full Name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label for="phone_number">Phone Number</label><br>
+                    <input type="tel" name="phone_number" id="phone_number" placeholder="Phone Number">
+                </div>
+
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+
+                <div>
+                    <label for="confirm_password">Confirm Password</label><br>
+                    <input type="text" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+
+            <p>Already have an existing me? Login <a href="#"><span>here</span></a></p>
+        </main>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
