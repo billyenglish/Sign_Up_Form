@@ -18,7 +18,7 @@ header {
 }
 
 #header {
-    background-image: url("./image/delaney-van-JYVKaxAlp4A-unsplash.jpg");
+    background-image: url("../image/delaney-van-JYVKaxAlp4A-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@ main {
 
 #main > h2 {
     font-size: 2.2rem;
-    padding: 1rem 0 1rem;
+    padding: 1rem 0 .5rem;
     letter-spacing: 2px;
     font-weight: 600;
 }
@@ -76,6 +76,8 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form > div {
@@ -83,10 +85,16 @@ form > div {
 }
 
 form > button {
-    margin: 1rem 0 5rem 0;
+    margin: 2rem 0 3.5rem 0;
     font-size: .85rem;
-    font-weight: 400;
-    letter-spacing: .05px;
+    font-weight: 550;
+    letter-spacing: .2rem;
+    padding: 1px;
+    max-width: 10rem;
+    max-height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
 }
 
 label {
@@ -95,12 +103,15 @@ label {
 }
 
 input {
-    min-height: 1.75rem;
-    min-width: 8rem;
+    min-height: 2rem;
+    min-width: 15rem;
 }
 
-button {
-    padding: 0;
+input::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem;
+    letter-spacing: .1rem;
 }
 
 p:last-child {
