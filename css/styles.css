@@ -18,7 +18,7 @@ header {
 }
 
 #header {
-    background-image: url("./image/delaney-van-JYVKaxAlp4A-unsplash.jpg");
+    background-image: url("/image/delaney-van-JYVKaxAlp4A-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -61,48 +61,48 @@ main {
     max-width: 80ch;
 }
 
-        #main p:nth-child(2) {
-            padding: 1rem;
+#main p:nth-child(2) {
+    padding: 1rem;
+}
+
+#palmer-intro-1 {
+    padding: 1rem;
         }
 
-        #palmer-intro-1 {
-            padding: 1rem;
-        }
+#palmer-intro-2 {
+    padding-bottom: 1.2rem;
+}
 
-        #palmer-intro-2 {
-            padding-bottom: 1.2rem;
-        }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-        form {
-            display: flex;
-            flex-direction: column;
-        }
+form > div {
+    padding: .4rem 0 .4rem 0;
+}
 
-        form > div {
-            padding: .4rem 0 .4rem 0;
-        }
+form > button {
+    margin: 1rem 0 5rem 0;
+    font-size: .85rem;
+    font-weight: 400;
+    letter-spacing: .05px;
+}
 
-        form > button {
-            margin: 1rem 0 5rem 0;
-            font-size: .85rem;
-            font-weight: 400;
-            letter-spacing: .05px;
-        }
+label {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
 
-        label {
-            font-size: 1rem;
-            letter-spacing: .1rem;
-        }
+input {
+    min-height: 1.75rem;
+    min-width: 8rem;
+}
 
-        input {
-            min-height: 1.75rem;
-            min-width: 8rem;
-        }
+button {
+    padding: 0;
+}
 
-        button {
-            padding: 0;
-        }
-
-        p:last-child {
-            font-size: .80rem;
-        }
+p:last-child {
+    font-size: .80rem;
+}
